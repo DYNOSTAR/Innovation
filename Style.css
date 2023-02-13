@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(42, 100, 4);
+}
+p {
+    color: gold;
+}
+h1 { 
+    color: white
+}
+#button{ 
+    background-color: rgb(136, 209, 19);
+    color: blue;
+}
+img{width: 200px;
+height: 200px;
+border-radius: 50%;
+
+
+}
