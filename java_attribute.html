@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>class attribute with javascript</h2>
+        <p>click the button, to hide all elements with the class name "fruit", with javascript:</p>
+        <button onclick="myFunction()">Hide elements</button>
+        <h2 class="fruit">mango</h2>
+        <p>Mango is king of vitamin c.</p>
+        <h2 class="fruit">Apple</h2>
+        <p>an apple a day, keeps the doctor away.</p>
+        <script>
+            function myfunction(){
+                var x = document.getElementsbyClassName("Fruit");
+                for (var i=0; i<x.lenth; i++){
+                    x[i].style.display="none";
+                }
+            }
+        </script>
+    </body>
+</html>
